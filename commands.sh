@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-az webapp up -n uda-azdevops-p2 --location southcentralus --sku B1
+az webapp up --runtime PYTHON:3.7 -n mlpredictorapp --location southcentralus --sku B1
