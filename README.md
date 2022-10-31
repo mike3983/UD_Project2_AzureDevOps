@@ -62,9 +62,9 @@ Verify the webapp is running in the Azure Portal:
 <p>
   <img src="./images/0CF7EA4C-1DE1-4440-B226-5D2946120A76.jpeg" width="100%" />
 </p>
-
+<p>
 You should be able to visit the URL Azure provides for the webapp, and see the following:
-
+</p>
 <p>
   <img src="./images/A4AAA52C-DC14-43C4-94BB-EB511EC274DC_4_5005_c.jpeg" width="100%" />
 </p>
