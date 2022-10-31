@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-locust -f locustfile.py --host https://uda-azdevops-p2.azurewebsites.net/
+locust -f locustfile.py --host https://mlpredictorapp.azurewebsites.net/
