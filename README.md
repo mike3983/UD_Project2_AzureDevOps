@@ -9,15 +9,17 @@ This project will detail how to apply Continous Integration (CI) and Continous D
 https://trello.com/b/YdfJEAQc/machine-learning-app-udacity-project
 * A link to a spreadsheet that includes the original and final project plan: 
 https://docs.google.com/spreadsheets/d/1bcAi7Gi0GrflvtWf9zhT2umgKhMSX3n7L9yZFwEQt5c/edit#gid=1348135932
-
-## Instructions
   
-## Architectural Diagram (CI/CD workflow)>
+## Architectural Diagram (CI/CD workflow)
 <p>
 <img src="./images/852E2112-29BF-43FD-880C-91B040EBD1D7.jpeg" width="100%" />
 </p>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+## Instructions
+
+In MS Azure, run the Azure Cloud Shell:
+
+
 
 * Project running on Azure App Service
 <p>
