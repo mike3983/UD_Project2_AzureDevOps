@@ -105,7 +105,7 @@ Performance will be displayed as follows:
   <img src="./images/6E596BD5-7D98-42EB-B7F7-E1BF9A667C63.jpeg" width="100%" />
 </p>
 
-Logs for the webapp can be obtained with the following command:
+Further information can be gathered via the logs for the webapp, which can be obtained with the following command:
 ```
 az webapp log tail --resource-group <rg name> --name  <webapp name>
 ```
