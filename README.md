@@ -51,6 +51,11 @@ Successful lint and test will yield this:
   <img src="./images/99A2611A-DE28-4F24-8535-A859B83CFAAB.jpeg" width="100%" />
 </p>
 
+Githib Actions can be configured to automatically trigger this command when new code is committed: 
+<p>
+  <img src="./images/5F8425F6-D082-41A0-9F39-AC32A8EC18AF.jpeg" width="100%" />
+</p>
+
 * Project running on Azure App Service
 <p>
 <img src="./images/running website.JPG" width="100%" />
