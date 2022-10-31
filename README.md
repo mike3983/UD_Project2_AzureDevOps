@@ -24,9 +24,15 @@ In MS Azure, launch the Azure Cloud Shell:
 
 Once Azure Cloud Shell is running, execute the following commands:
 ```
-git clone https://github.com/datdt201/udacity.git -b projects/ml-app-cicd
-cd udacity
+git clone git@github.com:mike3983/UD_Project2_AzureDevOps.git
+cd UD_Project2_AzureDevOps
 ```
+
+The output will look like this:
+<p>
+  <img src="./images/0C81B84E-90AD-4B9F-A63A-C0A7AB90EDE3.jpeg" width="100%" />
+</p>
+  
 
 
 * Project running on Azure App Service
