@@ -28,4 +28,4 @@ class QuickstartUser(HttpUser):
 })
 
     def on_start(self):
-        self.client.get("https://uda-azdevops-p2.azurewebsites.net")
+        self.client.get("https://mlpredictorapp.azurewebsites.net")
