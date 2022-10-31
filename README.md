@@ -25,7 +25,7 @@ In MS Azure, launch the Azure Cloud Shell:
 Once Azure Cloud Shell is running, execute the following commands:
 
 ```
-git clone git@github.com:mike3983/UD_Project2_AzureDevOps.git
+git clone https://github.com/mike3983/UD_Project2_AzureDevOps.git
 cd UD_Project2_AzureDevOps
 ```
 
@@ -40,6 +40,16 @@ After the repository is available, create a virtual environment:
 python3 -m venv .venv
 source .venv/bin/activate
 ```
+When the virtual environment is activated, install all requirements and execute tests and lint:
+
+```
+make all
+```
+
+Successful lint and test will yield this:
+<p>
+  <img src="./images/99A2611A-DE28-4F24-8535-A859B83CFAAB.jpeg" width="100%" />
+</p>
 
 * Project running on Azure App Service
 <p>
