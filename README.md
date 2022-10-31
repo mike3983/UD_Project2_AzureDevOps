@@ -114,26 +114,6 @@ A successful API call will look like this:
 <img src="./images/azure pipepline build and deploy.JPG" width="100%" />
 </p>
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
-<p>
-<img src="./images/making prediction.JPG" width="100%" />
-</p>
-
-* Output of streamed log files from deployed application
-
-<p>
-<img src="./images/az webapp log.JPG" width="100%" />
-</p>
-
-> 
 
 * Locust load testing chart
 <p>
@@ -147,12 +127,11 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
 - UI design 
 - Pipeline improvement
 - ML model upgrade
+- 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
 https://www.youtube.com/watch?v=YmLPBLMCxRQ
 
