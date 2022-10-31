@@ -23,6 +23,7 @@ In MS Azure, launch the Azure Cloud Shell:
 </p>
 
 Once Azure Cloud Shell is running, execute the following commands:
+
 ```
 git clone git@github.com:mike3983/UD_Project2_AzureDevOps.git
 cd UD_Project2_AzureDevOps
@@ -33,7 +34,12 @@ The output will look like this:
   <img src="./images/0C81B84E-90AD-4B9F-A63A-C0A7AB90EDE3.jpeg" width="100%" />
 </p>
   
+After the repository is available, create a virtual environment:
 
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 * Project running on Azure App Service
 <p>
