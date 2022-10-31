@@ -76,6 +76,9 @@ Once pipeline is configured, any change in code can be pushed to the webapp in A
   <img src="./images/2B333240-A449-427C-B960-913C7085CCD1.jpeg" width="100%" />
 </p>
 
+Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
+
 The deployed application can be called and tested using the Azure Cloud Shell:
 ```
 ./make_predict_azure_app.sh
@@ -86,43 +89,28 @@ A successful API call will look like this:
   <img src="./images/1B0B4788-05F8-474B-BEC7-CBE9D7022D44_4_5005_c.jpeg" width="100%" />
 </p>
 
-
-
-
-
-
-
-
-* Project running on Azure App Service
+The webapp can also be load tested using Locust. 
+```
+pip install locust
+locust -P 8089
+locust
+```
+Visit the localhost:8089 and input the webapp URL:
 <p>
-<img src="./images/running website.JPG" width="100%" />
+  <img src="./images/1D51FD25-9BDB-4DE3-927B-CA55B9EAA7F1.jpeg" width="100%" />
 </p>
 
-* Project cloned into Azure Cloud Shell
+Performance will be displayed as follows:
 <p>
-<img src="./images/clone project.JPG" width="100%" />
+  <img src="./images/6E596BD5-7D98-42EB-B7F7-E1BF9A667C63.jpeg" width="100%" />
 </p>
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile` and Output of a test run
+Logs for the webapp can be obtained with the following command:
+```
+az webapp log tail --resource-group <rg name> --name  <webapp name>
+```
 <p>
-<img src="./images/make all.JPG" width="100%" />
-</p>
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-<p>
-<img src="./images/azure pipepline build and deploy.JPG" width="100%" />
-</p>
-
-
-* Locust load testing chart
-<p>
-<img src="./images/locust chart.JPG" width="100%" />
-</p>
-
-* Locust load testing statics
-<p>
-<img src="./images/locust report.JPG" width="100%" />
+  <img src="./images/C951C399-002F-47E9-A7DE-42BAFED40DB3.jpeg" width="100%" />
 </p>
 
 ## Enhancements
