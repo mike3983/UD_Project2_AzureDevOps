@@ -9,9 +9,9 @@ Building a CI/CD Pipeline in Udacity Cloud DevOps using Microsoft Azure course
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
+* A link to a Trello board for the project: 
 https://trello.com/b/YdfJEAQc/machine-learning-app-udacity-project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a spreadsheet that includes the original and final project plan: 
 https://docs.google.com/spreadsheets/d/1bcAi7Gi0GrflvtWf9zhT2umgKhMSX3n7L9yZFwEQt5c/edit#gid=1348135932
 
 ## Instructions
