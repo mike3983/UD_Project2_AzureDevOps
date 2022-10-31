@@ -56,6 +56,26 @@ Githib Actions can be configured to automatically trigger this command when new 
   <img src="./images/5F8425F6-D082-41A0-9F39-AC32A8EC18AF.jpeg" width="100%" />
 </p>
 
+Now, the Python Flask application can be pushed to Microsoft Azure using this command:
+```
+az webapp up -n mlpredictorapp --runtime PYTHON:3.7
+```
+Verify the webapp is running in the Azure Portal:
+<p>
+  <img src="./images/0CF7EA4C-1DE1-4440-B226-5D2946120A76.jpeg" width="100%" />
+</p>
+You should be able to visit the URL Azure provides for the webapp, and see the following:
+<p>
+  <img src="./images/A4AAA52C-DC14-43C4-94BB-EB511EC274DC_4_5005_c.jpeg" width="100%" />
+</p>
+
+
+
+
+
+
+
+
 * Project running on Azure App Service
 <p>
 <img src="./images/running website.JPG" width="100%" />
