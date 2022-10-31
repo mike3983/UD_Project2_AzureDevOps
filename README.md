@@ -64,9 +64,28 @@ Verify the webapp is running in the Azure Portal:
 <p>
   <img src="./images/0CF7EA4C-1DE1-4440-B226-5D2946120A76.jpeg" width="100%" />
 </p>
+
 You should be able to visit the URL Azure provides for the webapp, and see the following:
+
 <p>
   <img src="./images/A4AAA52C-DC14-43C4-94BB-EB511EC274DC_4_5005_c.jpeg" width="100%" />
+</p>
+
+We can configure Continuous Deployment with Azure Pipeline: https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#create-an-azure-devops-project-and-connect-to-azure
+
+Once pipeline is configured, any change in code can be pushed to the webapp in Azure:
+<p>
+  <img src="./images/2B333240-A449-427C-B960-913C7085CCD1.jpeg" width="100%" />
+</p>
+
+The deployed application can be called and tested using the Azure Cloud Shell:
+```
+./make_predict_azure_app.sh
+```
+
+A successful API call will look like this:
+<p>
+  <img src="./images/1B0B4788-05F8-474B-BEC7-CBE9D7022D44_4_5005_c.jpeg" width="100%" />
 </p>
 
 
