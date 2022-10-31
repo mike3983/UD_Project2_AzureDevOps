@@ -1,6 +1,5 @@
 # Overview
-
-Building a CI/CD Pipeline in Udacity Cloud DevOps using Microsoft Azure course
+This project will detail how to apply Continous Integration (CI) and Continous Delivery (CD) for a Python Machine Learning application using Github Actions and Microsoft Azure Pipelines.
 
 [![Python application test with Github Actions](https://github.com/mike3983/UD_Project2_AzureDevOps/actions/workflows/main.yml/badge.svg)](https://github.com/mike3983/UD_Project2_AzureDevOps/actions/workflows/main.yml)
 
@@ -12,9 +11,8 @@ https://trello.com/b/YdfJEAQc/machine-learning-app-udacity-project
 https://docs.google.com/spreadsheets/d/1bcAi7Gi0GrflvtWf9zhT2umgKhMSX3n7L9yZFwEQt5c/edit#gid=1348135932
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+  
+## Architectural Diagram (CI/CD workflow)>
 <p>
 <img src="./images/cd-diagram.png" width="100%" />
 </p>
