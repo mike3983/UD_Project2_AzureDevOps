@@ -5,10 +5,8 @@ This project will detail how to apply Continous Integration (CI) and Continous D
 
 ## Project Plan
 
-* A link to a Trello board for the project: 
-https://trello.com/b/YdfJEAQc/machine-learning-app-udacity-project
-* A link to a spreadsheet that includes the original and final project plan: 
-https://docs.google.com/spreadsheets/d/1bcAi7Gi0GrflvtWf9zhT2umgKhMSX3n7L9yZFwEQt5c/edit#gid=1348135932
+* A link to a [Trello board](https://trello.com/b/YdfJEAQc/machine-learning-app-udacity-project) for the project 
+* A link to a spreadsheet that includes the [project plan](https://docs.google.com/spreadsheets/d/1bcAi7Gi0GrflvtWf9zhT2umgKhMSX3n7L9yZFwEQt5c/edit#gid=1348135932)
   
 ## Architectural Diagram (CI/CD workflow)
 <p>
@@ -71,7 +69,7 @@ You should be able to visit the URL Azure provides for the webapp, and see the f
   <img src="./images/A4AAA52C-DC14-43C4-94BB-EB511EC274DC_4_5005_c.jpeg" width="100%" />
 </p>
 
-We can configure Continuous Deployment with Azure Pipeline: https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#create-an-azure-devops-project-and-connect-to-azure
+We can [configure Continuous Deployment with Azure Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#create-an-azure-devops-project-and-connect-to-azure)
 
 Once pipeline is configured, any change in code can be pushed to the webapp in Azure:
 <p>
