@@ -17,8 +17,16 @@ https://docs.google.com/spreadsheets/d/1bcAi7Gi0GrflvtWf9zhT2umgKhMSX3n7L9yZFwEQ
 
 ## Instructions
 
-In MS Azure, run the Azure Cloud Shell:
+In MS Azure, launch the Azure Cloud Shell:
+<p>
+<img src="./images/305DDF62-1677-4A6F-A96C-5E1A5D517424.jpeg" width="100%" />
+</p>
 
+Once Azure Cloud Shell is running, execute the following commands:
+```
+git clone https://github.com/datdt201/udacity.git -b projects/ml-app-cicd
+cd udacity
+```
 
 
 * Project running on Azure App Service
