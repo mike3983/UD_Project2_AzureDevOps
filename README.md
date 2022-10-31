@@ -14,7 +14,7 @@ https://docs.google.com/spreadsheets/d/1bcAi7Gi0GrflvtWf9zhT2umgKhMSX3n7L9yZFwEQ
   
 ## Architectural Diagram (CI/CD workflow)>
 <p>
-<img src="./images/cd-diagram.png" width="100%" />
+<img src="./images/852E2112-29BF-43FD-880C-91B040EBD1D7.jpeg" width="100%" />
 </p>
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
