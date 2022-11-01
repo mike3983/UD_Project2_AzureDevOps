@@ -76,7 +76,7 @@ Once pipeline is configured, any change in code can be pushed to the webapp in A
   <img src="./images/2B333240-A449-427C-B960-913C7085CCD1.jpeg" width="100%" />
 </p>
 
-Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+[Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 
 The deployed application can be called and tested using the Azure Cloud Shell:
