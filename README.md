@@ -121,5 +121,5 @@ az webapp log tail --resource-group <rg name> --name  <webapp name>
 - 
 ## Demo 
 
-https://www.youtube.com/watch?v=YmLPBLMCxRQ
+https://youtu.be/VjhSwv3xv3s
 
