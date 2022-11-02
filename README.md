@@ -115,10 +115,10 @@ az webapp log tail --resource-group <rg name> --name  <webapp name>
 
 ## Enhancements
 
-- UI design 
-- Pipeline improvement
-- ML model upgrade
-- 
+- UI design: display predictions via web interface instead of JSON object in CLI, so that users can easily see predictions 
+- Pipeline improvement: the build pipeline is slow; implement contianerization for performance improvement
+- ML model upgrade: refine the model so that predictions are more accurate
+
 ## Demo 
 
 https://youtu.be/VjhSwv3xv3s
